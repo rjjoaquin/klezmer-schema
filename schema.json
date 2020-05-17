@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.klezmermaudlin.com/#website",
+      "url": "https://www.klezmermaudlin.com/",
+      "name": "Klezmer Maudlin PC",
+      "inLanguage": "en-US",
+      "description": "Personal Injury Attorneys",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://www.klezmermaudlin.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.klezmermaudlin.com/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://www.klezmermaudlin.com/wp-content/uploads/2020/02/Phone_KM_lght-gry.png",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.klezmermaudlin.com/#webpage",
+      "url": "https://www.klezmermaudlin.com/",
+      "name": "Indianapolis Worker&#039;s Comp Lawyers | Indianapolis Workers&#039; Compensation Attorneys, Lawyer - We work hard for you.",
+      "isPartOf": { "@id": "https://www.klezmermaudlin.com/#website" },
+      "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@id": "https://www.klezmermaudlin.com/#primaryimage"
+      },
+      "datePublished": "2020-02-12T22:05:21+00:00",
+      "dateModified": "2020-05-07T15:06:40+00:00",
+      "description": "We Wrote the Book on Worker\u2019s Compensation in Indiana . Get Indiana Worker\u2019s Compensation Lawyers from the firm who wrote the book. Call Us Now 1 317-569-9644",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.klezmermaudlin.com/"] }
+      ]
+    }
+  ]
+}
